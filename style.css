@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 4em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.dropdown-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-icon .select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.dropdown-icon .select .selectedIcon {
+    margin-right: 8px;
+}
+
+.dropdown-icon .select i {
+    margin-left: auto;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-icon .select.active i {
+    transform: rotate(-90deg);
+}
+
+.dropdown-icon .dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-icon .input-icon {
+    display: none;
+}
+
