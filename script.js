@@ -31,7 +31,6 @@ const fileNames = [
     'success.png',
     'trophy-awards.png',
     'video-conference.png',
-    'we-are-hiring.png',
     'welcome.png',
     'work-from-home.png'
     // Add more image file names here
