@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Icon Library</title>
+</head>
+<body>
+    <div class="selected-image-container">
+        <!-- Selected image will appear here -->
+    </div>
+    <div class="container">
+        <div class="dropdown-icon">
+            <div class="select" onclick="toggleDropdown()">
+                <span class="selectedIcon">
+                Icon
+                </span>
+                <i class="fa fa-chevron-down"></i>
+            </div>
+            <input
+                type="text"
+                name='iconLibrary'
+                class="input-icon"
+            />
+            <ul class="dropdown-menu" id="selectIcon">
+                <div class="d-grid-3 imageList">
+                    <!-- Images will be dynamically added here -->
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
